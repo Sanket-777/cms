@@ -132,6 +132,9 @@ export const ContentRendererClient = ({
             >
               {contentCompleted ? 'Mark as Incomplete' : 'Mark as completed'}
             </button>
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold rounded p-2 ml-4 my-4">
+              Next Video
+            </button>
           </div>
 
           <div>

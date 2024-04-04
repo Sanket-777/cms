@@ -32,6 +32,7 @@ export const CourseView = ({
       <Sidebar fullCourseContent={fullCourseContent} courseId={course.id} />
       <div className="grow p-2 overflow-y-auto no-scrollbar">
         <div className=" min-h-[2.5rem] max-h-fit mb-2 flex items-center px-4">
+          HI
           <BreadCrumbComponent
             course={course}
             contentType={contentType}
